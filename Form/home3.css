@@ -1,0 +1,145 @@
+.register-left{
+	float: left;
+	width: 450px;
+	height: 320px;
+	background: #F5F5DC;
+	margin-left: 10%;
+}
+.register-left h3{
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 50px;
+	background: blue;
+	font-size: 28px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
+.register-left input{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	padding-left: 30px;
+	/*background: #f9fbff;*/
+}
+.register-left input.username{
+	margin-top: 40px;
+}
+.register-left input.signin{
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 88%;
+	height: 50px;
+	text-align: center;
+	border: 0px;
+	background: #00FFFF;
+	color: white;
+	line-height: 50px;
+	font-size: 20px;
+}
+.register-left a{
+	display: block;
+	float: right;
+	width: auto;
+	text-decoration: none;
+	padding-right: 6%;
+	margin-top: 10px;
+	font-size: 18px;
+	color: gray;
+}
+.register-left a:hover{
+	color: violet;
+}
+.register-right{
+	float: right;
+	width: 450px;
+	height: 320px;
+	background: #F5F5DC;
+	margin-right: 10%;
+}
+.register-right h3{
+	margin: 0;
+	display: block;
+	width: 92%;
+	height: 30px;
+	background: blue;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 8%;
+}
+.register-right input{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	height: 40px;
+	padding-left: 35px;
+	/*background: #f9fbff;*/
+	margin-top: 30px;
+	border-radius: 5px;
+	border: 0px;
+	font-size: 18px;
+}
+.register-right input.username{
+	background-image: url('../icons/contact.png');
+	background-size: 25px 25px;
+	background-position: left 5px top 5px;
+	background-repeat: no-repeat;
+}
+.register-right input.password{
+	background-image: url('../icons/key.png');
+	background-size: 20px 20px;
+	background-position: left 6px top 9px;
+	background-repeat: no-repeat;
+}
+.register-right input.checkbox{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left:11.5%;
+	margin-right: 10px;
+}
+.register-right label{>
+	display: block;
+	float: left;
+	width: 100px;
+	margin-top: 30px;
+	padding-right: 5px;
+	border-right: 2px dotted black;
+}
+.register-right a{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 20px;
+	margin-top: 30px;
+	/*background: blue;*/
+	padding-left: 5px;
+	text-align: center;
+	color: blue;
+	margin-bottom: 20px;
+}
+.register-right a:hover{
+	color: violet;
+}
+.register-right input.login{
+	padding: 0;
+	margin: 0 auto;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	background: red;
+	color: white;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 18px;
+}

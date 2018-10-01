@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.rigester{
+	margin: 0 auto;
+	width: 600px;
+	height: 520px;
+	background-image: url('http://media.designs.vn/public/media/media/picture/10-10-2014/bo-hinhnen-bokeh-dep-04.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+}
+.rigester form{
+	float: right;
+	width: 99%;
+	height: 97%;
+	background-color:rgba(255, 244, 102,0.3);
+	margin-top: 2%;
+}
+.rigester form h3{
+	display: block;
+	width: 100%;
+	height: 90px;
+	/* background: pink; */
+	font-size: 24px;
+	line-height: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.rigester form .form-left{
+	float: left;
+	margin-left: 30px;
+	width: 44%;
+	/* background: red; */
+}
+.rigester form .form-right{
+	float: right;
+	margin-right: 30px;
+	width: 44%;
+	/* background: red; */
+}
+label{
+	float: left;
+	display: block;
+	width: auto;
+	font-size: 22px;
+	color: #FFFFFF;
+	margin: 15px 0;
+}
+input{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 0px;
+}
+.checkbox input{
+	float: left;
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+.checkbox label{
+	float: left;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 17px;
+}
+.rigester form a{
+	clear: both;
+	float: right;
+	display: block;
+	width: 170px;
+	height: 40px;
+	background: cyan;
+	margin-right: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+}
+.rigester form a:hover{
+	color: cyan;
+	background: white;
+}

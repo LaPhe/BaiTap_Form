@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.register-left{
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin-left: 10%;
+	margin-top: 50px;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5kZsqAb1P5jVPvXFHTmto5YPxKBFNvu8hIRx2R0F3x5Bz0lB');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.register-left fieldset{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 5%;
+	background: #F5F5F5;
+	border-radius: 8px;
+	border: 1.5px solid gray;
+}
+.register-left fieldset legend{
+	display: block;
+	float: left;
+	width: 250px;
+	height: 40px;
+	background: #1E90FF;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	line-height: 40px;
+	padding: 5px 0;
+	border-radius: 7px;
+	margin-bottom: 40px;
+}
+.register-left fieldset label{
+	clear: both;
+	display: block;
+	float: left;
+	width: 27%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color:black;
+	font-weight: bold;
+	text-align: right;
+}
+.register-left fieldset input{
+	display: inline-block;
+	float: right;
+	width: 65%;
+	margin-right: 20px;
+	height: 40px;
+	border: 1.5px solid #E9967A;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	background: white;
+}
+.register-left fieldset input.rigister{
+	clear: both;
+	float: right;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: blue;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 25px;
+	border: 0px;
+}
+.register-right{
+	float: right;
+	width: 500px;
+	height: 500px;
+	margin-right: 10%;
+	margin-top: 50px;
+	background-image: url('https://www.backgroundsy.com/file/large/spiral-rainbow-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.register-right fieldset{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 5%;
+	background: white;
+	border: 1.5px solid silver;
+}
+.register-right fieldset legend{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 30px;
+	background: #00FA9A;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	margin-left: 10%;
+	margin-top: -10px;
+}
+.register-right fieldset label{
+	clear: both;
+	display: block;
+	float: left;
+	width:80%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color:black;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: -10px;
+}
+.register-right fieldset label strong{
+	color: cyan;
+	font-weight: bold;
+	font-size: 20px;
+}
+.register-right fieldset input{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	height: 40px;
+	border: 1.5px solid #E9967A;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.register-right fieldset input.email{
+	width: 75%;
+	padding-left: 5%;
+	font-style: italic;
+}
+.register-right fieldset input.rigister{
+	clear: both;
+	display: inline-block;
+	width: 80%;
+	height: 45px;
+	margin-left: 10%;
+	background: #00FA9A;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 0px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.register-left{
+	float: left;
+	width: 40%;
+	height: 700px;
+	background: #FF4500;
+	margin-top: 50px;
+	margin-left: 10%;
+}
+.register-left fieldset{
+	display: inline-block;
+	width: 70%;
+	margin-top: 80px;
+	margin-left: 15%;
+	background: #F5F5F5;
+	border: 0;
+}
+.register-left fieldset legend{
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	background: #FFFF00;
+	border-radius: 999px;
+}
+.register-left fieldset legend img{
+	padding: 35px 38px;
+}
+.register-left fieldset h3{
+	display: block;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: 	#00FFFF;
+}
+.register-left fieldset input{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 2px;
+	border: 0px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	background: #C0C0C0;
+}
+.register-left fieldset input.username{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.register-left fieldset input.password{
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.register-left fieldset input.login{
+	clear: both;
+	margin: 0 auto;
+	width: 80%;
+	height: 55px;
+	text-align: center;
+	border: 0px;
+	background: darkblue;
+	color: white;
+	line-height: 55px;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.register-left fieldset input.login:hover{
+	color: cyan;
+	background: darkgrey;
+}
+.register-left fieldset a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.register-left fieldset a:hover{
+	color: darkviolet;
+}
+.register-right{
+	float: right;
+	width: 40%;
+	height: 700px;
+	background:	#00FF7F;
+	margin-top: 50px;
+	margin-right: 10%;
+}
+.register-right fieldset{
+	display: inline-block;
+	width: 70%;
+	margin-top: 80px;
+	margin-left: 15%;
+	background: #F5F5F5;
+	border: 0;
+}
+.register-right fieldset legend{
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	background: #FFFF00;
+	border-radius: 999px;
+}
+.register-right fieldset legend img{
+	padding: 40px 40px;
+}
+.register-right fieldset h3{
+	display: block;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: 	#00FFFF;
+}
+.register-right fieldset input{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	border-radius: 2px;
+	border: 0px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	background: #C0C0C0;
+}
+.register-right fieldset input.register{
+	clear: both;
+	margin: 0 auto;
+	width: 80%;
+	height: 55px;
+	text-align: center;
+	border: 0px;
+	background: darkblue;
+	color: white;
+	line-height: 55px;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.register-right fieldset input.register:hover{
+	color: cyan;
+	background: darkgrey;
+}
+.register-right fieldset a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.register-right fieldset a:hover{
+	color: darkviolet;
+}
